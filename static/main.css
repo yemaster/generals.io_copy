@@ -6,9 +6,9 @@ button:focus{outline:0 !important}
 button:hover{cursor:pointer;background-color:#bbb;box-shadow:3px 3px teal}
 button.inverted{background-color:teal;box-shadow:2px 2px black;color:white}
 button.inverted:hover{background-color:#006e6e;box-shadow:3px 3px black}
-@font-face{font-family:Quicksand;src:url('/Quicksand-Regular.otf')}
-@font-face{font-family:Quicksand-Light;src:url('/Quicksand-Light.otf')}
-@font-face{font-family:Quicksand-Bold;src:url('/Quicksand-Bold.otf')}
+@font-face{font-family:Quicksand;src:url('./Quicksand-Regular.otf')}
+@font-face{font-family:Quicksand-Light;src:url('./Quicksand-Light.otf')}
+@font-face{font-family:Quicksand-Bold;src:url('./Quicksand-Bold.otf')}
 *{font-family:Quicksand;color:white}
 
 .center{position:absolute;top:50%;left:50%;transform:translateY(-50%) translateX(-50%)}
@@ -113,11 +113,11 @@ input[type=range]{-webkit-appearance:none;margin:10px 0;width:100%}input[type=ra
 #map td{background-position:center;background-repeat:no-repeat;position:relative;border:1px solid black;text-align:center;text-shadow:0 0 2px black;padding:0;overflow:hidden;white-space:nowrap;color:white;user-select:none}
 #map_back{position:fixed;left:0;right:0;top:0;bottom:0}
 .empty{background-color:#dcdcdc;}
-.swamp{background-image:url('/swamp.png');background-color:gray}
-.obstacle{background-image:url('/obstacle.png')}
-.general{background-image:url('/crown.png')}
-.mountain{background-image:url('/mountain.png')}
-.city{background-color:gray;background-image:url('/city.png')}
+.swamp{background-image:url('./swamp.png');background-color:gray}
+.obstacle{background-image:url('./obstacle.png')}
+.general{background-image:url('./crown.png')}
+.mountain{background-image:url('./mountain.png')}
+.city{background-color:gray;background-image:url('./city.png')}
 .fog{border:1px solid rgba(255,255,255,0)!important;background-color:rgba(255,255,255,0.1)}
 
 #chat{position:fixed;bottom:0;left:0;background:rgba(0,0,0,0.5);z-index:25}
